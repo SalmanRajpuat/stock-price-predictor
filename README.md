@@ -7,7 +7,7 @@ A machine learning-based stock price prediction system built with LSTM neural ne
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project predicts tomorrow's stock price for **Habib Bank Limited (HBL)** listed on the Pakistan Stock Exchange (PSX) using:
 - **LSTM Neural Networks** for deep learning predictions
@@ -15,7 +15,7 @@ This project predicts tomorrow's stock price for **Habib Bank Limited (HBL)** li
 - **MVC Architecture** for clean, maintainable code
 - **Web Interface** built with HTML, CSS, and JavaScript
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Model-View-Controller (MVC) Structure
 ```
@@ -35,7 +35,7 @@ stock-project/
 └── hbl_clean_data.csv          # Processed Data
 ```
 
-## 📊 Stock Analysis Details
+##  Stock Analysis Details
 
 ### Target Stock: **HBL (Habib Bank Limited)**
 - **Exchange**: Pakistan Stock Exchange (PSX)
@@ -50,7 +50,7 @@ stock-project/
 - **52-Week Low**: $XXX.XX
 - **Average Daily Volume**: XXX,XXX shares
 
-## 🧠 Machine Learning Model
+##  Machine Learning Model
 
 ### LSTM Neural Network Architecture
 ```python
@@ -83,7 +83,7 @@ Non-trainable params: 0
 - Support & Resistance Levels
 - Consensus Prediction
 
-## 🎯 Accuracy & Performance
+##  Accuracy & Performance
 
 ### Model Performance Metrics
 - **Training Accuracy**: XX.XX%
@@ -101,7 +101,7 @@ Date        Actual    Predicted   Error     Accuracy
 2025-08-12  $XXX.XX   $XXX.XX    $X.XX     XX.XX%
 ```
 
-## 🛠️ Requirements & Installation
+##  Requirements & Installation
 
 ### System Requirements
 - **Python**: 3.8 or higher
@@ -146,7 +146,7 @@ matplotlib>=3.5.0 (optional, for plotting)
    python hbl_download.py
    ```
 
-## 🚀 Usage
+##  Usage
 
 ### Command Line Interface
 ```bash
@@ -196,7 +196,7 @@ print(f"Tomorrow's predicted price: ${prediction:.2f}")
 - External factors (news, economic events) are not considered
 - Short-term predictions are generally more reliable than long-term
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 ### Planned Features
 - [ ] Integration with real-time PSX data feeds
@@ -215,7 +215,7 @@ print(f"Tomorrow's predicted price: ${prediction:.2f}")
 - [ ] Real-time model retraining
 - [ ] API development for external integration
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 **Important Notice**: This stock prediction system is developed for **educational and research purposes only**. 
 
