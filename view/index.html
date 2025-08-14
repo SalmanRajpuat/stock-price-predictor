@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBL Stock Price Predictor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📈 HBL Stock Price Predictor</h1>
+            <p>Advanced Technical Analysis & Prediction System</p>
+        </header>
+
+        <main>
+            <div class="card current-data">
+                <h2>📊 Current Market Data</h2>
+                <div class="data-grid">
+                    <div class="data-item">
+                        <span class="label">Current Price:</span>
+                        <span class="value" id="current-price">Loading...</span>
+                    </div>
+                    <div class="data-item">
+                        <span class="label">Last Updated:</span>
+                        <span class="value" id="last-updated">Loading...</span>
+                    </div>
+                    <div class="data-item">
+                        <span class="label">7-Day Change:</span>
+                        <span class="value" id="weekly-change">Loading...</span>
+                    </div>
+                    <div class="data-item">
+                        <span class="label">30-Day Change:</span>
+                        <span class="value" id="monthly-change">Loading...</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card prediction-section">
+                <h2>🔮 Price Prediction</h2>
+                <button id="predict-btn" class="predict-button">Generate Prediction</button>
+                
+                <div id="prediction-results" class="prediction-results" style="display: none;">
+                    <div class="prediction-card">
+                        <h3>Tomorrow's Predicted Price</h3>
+                        <div class="predicted-price" id="predicted-price">$0.00</div>
+                        <div class="price-change" id="price-change">0.00%</div>
+                        <div class="market-outlook" id="market-outlook">NEUTRAL</div>
+                    </div>
+                    
+                    <div class="technical-indicators">
+                        <h3>📊 Technical Indicators</h3>
+                        <div class="indicators-grid">
+                            <div class="indicator">
+                                <span class="indicator-label">5-Day SMA:</span>
+                                <span class="indicator-value" id="sma-5">$0.00</span>
+                            </div>
+                            <div class="indicator">
+                                <span class="indicator-label">10-Day SMA:</span>
+                                <span class="indicator-value" id="sma-10">$0.00</span>
+                            </div>
+                            <div class="indicator">
+                                <span class="indicator-label">20-Day SMA:</span>
+                                <span class="indicator-value" id="sma-20">$0.00</span>
+                            </div>
+                            <div class="indicator">
+                                <span class="indicator-label">Trend-Based:</span>
+                                <span class="indicator-value" id="trend-prediction">$0.00</span>
+                            </div>
+                            <div class="indicator">
+                                <span class="indicator-label">Support Level:</span>
+                                <span class="indicator-value" id="support-level">$0.00</span>
+                            </div>
+                            <div class="indicator">
+                                <span class="indicator-label">Resistance Level:</span>
+                                <span class="indicator-value" id="resistance-level">$0.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card actions">
+                <h2>⚙️ Actions</h2>
+                <div class="button-group">
+                    <button id="refresh-data-btn" class="action-button">
+                        🔄 Refresh Data
+                    </button>
+                    <button id="download-new-data-btn" class="action-button">
+                        📥 Download New Data
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>⚠️ <strong>Disclaimer:</strong> This prediction system is for educational purposes only. Always consult with financial advisors before making investment decisions.</p>
+        </footer>
+    </div>
+
+    <div id="loading" class="loading" style="display: none;">
+        <div class="spinner"></div>
+        <p>Processing prediction...</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
