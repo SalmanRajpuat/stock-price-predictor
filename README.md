@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 # HBL Stock Price Predictor
 =======
-# 📈 HBL Stock Price Predictor
+#  HBL Stock Price Predictor
 >>>>>>> ec3b3b32b2bc3f202d4f8940c54eb6893dc3db76
 
 A machine learning-based stock price prediction system built with LSTM neural networks and technical analysis, following the Model-View-Controller (MVC) architecture.
@@ -12,7 +12,7 @@ A machine learning-based stock price prediction system built with LSTM neural ne
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 <<<<<<< HEAD
-## 🎯 Project Overview
+##  Project Overview
 =======
 ##  Project Overview
 >>>>>>> ec3b3b32b2bc3f202d4f8940c54eb6893dc3db76
@@ -24,7 +24,7 @@ This project predicts tomorrow's stock price for **Habib Bank Limited (HBL)** li
 - **Web Interface** built with HTML, CSS, and JavaScript
 
 <<<<<<< HEAD
-## 🏗️ Architecture
+##  Architecture
 =======
 ##  Architecture
 >>>>>>> ec3b3b32b2bc3f202d4f8940c54eb6893dc3db76
@@ -48,7 +48,7 @@ stock-project/
 ```
 
 <<<<<<< HEAD
-## 📊 Stock Analysis Details
+##  Stock Analysis Details
 =======
 ##  Stock Analysis Details
 >>>>>>> ec3b3b32b2bc3f202d4f8940c54eb6893dc3db76
@@ -61,7 +61,7 @@ stock-project/
 - **Data Source**: Yahoo Finance
 
 <<<<<<< HEAD
-## 🧠 Machine Learning Model
+##  Machine Learning Model
 
 ### LSTM Neural Network Architecture
 =======
@@ -106,7 +106,7 @@ Non-trainable params: 0
 - Consensus Prediction
 
 <<<<<<< HEAD
-## 🛠️ Requirements & Installation
+##  Requirements & Installation
 =======
 ##  Accuracy & Performance
 
@@ -188,7 +188,7 @@ matplotlib>=3.5.0 (optional, for plotting)
    ```
 
 <<<<<<< HEAD
-## 🚀 Usage
+##  Usage
 =======
 ##  Usage
 >>>>>>> ec3b3b32b2bc3f202d4f8940c54eb6893dc3db76
@@ -208,11 +208,11 @@ python hbl_download.py
 3. View technical indicators and market analysis
 <<<<<<< HEAD
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 **Important Notice**: This stock prediction system is developed for **educational and research purposes only**. Always consult with qualified financial advisors before making investment decisions.
 
-## 👨‍💻 Author
+##  Author
 
 **Salman Rajpuat**
 - GitHub: [SalmanRajpuat](https://github.com/SalmanRajpuat)
@@ -238,7 +238,7 @@ prediction = model.predict_next_day()
 print(f"Tomorrow's predicted price: ${prediction:.2f}")
 ```
 
-## 📈 Results & Analysis
+##  Results & Analysis
 
 ### Key Findings
 1. **LSTM Performance**: The model shows strong performance in capturing short-term price movements
